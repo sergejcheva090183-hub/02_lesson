@@ -13,5 +13,5 @@ def month_to_season(month):
 
 user_month = int(input("Введите порядковый номер месяца (от 1 до 12): "))
     
-season_name = month_to_season(user_month)
+season_name = month_to_season(user_month) 
 print(f"Месяц {user_month} — это {season_name}")
